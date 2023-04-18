@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form name="forms" action="%html" method="port/get">
+		<table>
+			<tr>
+				<td>Name :</td> 
+				<td><input type="text" name="nm" placeholder="Enter Your Name" maxlength="20" required="required"> </td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td><input type="email" name="eid" placeholder="Enter your mail ID..."></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="Password" name="psw" ></td>
+			</tr>
+			<tr>
+				<td>Religion : </td>
+				<td> <div class="Rel">
+			        <select id="Religion" name="rel">
+			          <option value="hindu">Hindu</option>
+			          <option value="chris">Christian</option>
+			          <option value="mus">Muslim</option>
+			        </select>
+  				    </div>
+  				</td>
+			</tr>
+
+			<tr>
+				<td>Gender :</td>
+				<td>
+					  <input type="radio" id="age1" name="age" value="30">
+					  <label for="m">Male</label>
+					  <input type="radio" id="age2" name="age" value="60">
+					  <label for="f">Female</label>
+					  <input type="radio" id="age3" name="age" value="100">
+					  <label for="ma">Madhukar</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Date Of Birth :</td>
+				<td><input type="date" name="dob"></td>
+			</tr>
+
+			<tr>
+				<td>Subject :</td>
+				<td>
+					<div class="TA">
+        			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;width: 200px;"></textarea>
+     				</div>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="submit" class="registerbtn" style="width:200px">Register </button></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
